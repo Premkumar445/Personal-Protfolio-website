@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="C:\Users\ELCOT\Downloads\k3ipdvuSXaqqpSJF9hFS2e\Personal-portfolio\images\logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PROTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav><br><br><br><br>
+        
+        
+        
+            <h4><span class="subtitle">WELCOME TO MY WORLD</span></h4><br>
+            <h1>Hi, I'm <span>Prem</span><br>ConputerScince Student</h1><br>
+            
+
+            <p class="description">I am a Thred-year undergraduate student pursuing a degree in Computer Scince. 
+                With a <br><br> passion for protecting digital environments and uncovering vulnerabilities,
+                 I am <br><br>committed to mastering the art and science of cybersecurity.
+
+                From exploring ethical <br><br>hacking to mastering various techniques,I am 
+                actively building a strong foundation in <br><br> this dynamic and 
+                 ever-evolving field. As I progress in my academic journey, 
+                 I aim to <br><br> contribute meaningfully to the cybersecurity community 
+                 and develop innovative<br><br> solutions for real-world challenges.</p>
+            
+            
+
+
+
+            
+        
+    </div>
+</div>
+
+
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="C:\Users\ELCOT\Pictures\image.jpg">
+            </div>
+            <div class="about-col-2">
+                <h2 class="sub-title">About Me</h2>
+                <p>I am a Third-year undergraduate student pursuing a degree in ComputerScince. With a passion for protecting digital environments and uncovering vulnerabilities, I am committed to mastering the art and science of cybersecurity. From exploring ethical hacking to mastering various techniques, I am actively building a strong foundation in this dynamic and ever-evolving field. As I progress in my academic journey, I aim to contribute meaningfully to the cybersecurity community and develop innovative solutions for real-world challenges.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        
+                        <li><span>2024 - 2025</span><br>Cyberscurity Intern <br><br>The Red Userd<br><br> One month</li>
+                        <li><span>2024 - 2025</span><br>Full stack web development intern<br><br>inspire softech solutions private limited<br><br>Start Date  December 23, 2024<br><br> End Date  January 31,2025 </li>
+                        <li><span>2020 - 2023</span><br>Associative Engineer <br><br>Royal Enfield <br><br> Chennai</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        
+                        <li><span>2016</span><br>BE Computer Scince & Engineering<br><br> Adhiyamaan Colage Of Engineering <br><br> Hosur</li>
+                        <li><span>2020</span><br> Diploma Mechanical Engineering<br><br> SSM Polytechnic Collage<br><br> Namacal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Vulnerability Assessment</h2>
+                <p>I identify and analyze security weaknesses in systems, networks, and applications, providing actionable solutions to mitigate risks.</p>
+                <br><a class="btn btn-primary" href="#" role="button">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Penetration Testing</h2>
+                <p>I simulate real-world attacks to test your systems’ defenses and identify vulnerabilities before malicious actors exploit them.</p>
+                <br><a class="btn btn-primary" href="#" role="button">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Security Consulting</h2>
+                <p>I provide strategic advice and actionable insights to help organizations secure their digital assets and minimize cyber threats.</p>
+                <br><a class="btn btn-primary" href="#" role="button">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Network Security</h2>
+                <p>I design and implement robust security measures to protect networks from unauthorized access, attacks, and breaches.</p>
+                <br><a class="btn btn-primary" href="#" role="button">Learn more</a>
+            </div><br>
+            
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Threat Intelligence</h2>
+                <p>I monitor and analyze emerging cyber threats, providing proactive insights to protect your organization from potential risks.</p>
+                <br><a class="btn btn-primary" href="#" role="button">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Security Training</h2>
+                <p>I conduct tailored training programs to educate teams on cybersecurity best practices, reducing human-related risks.</p>
+                <br><a class="btn btn-primary" href="#" role="button">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="C:\Users\ELCOT\Downloads\k3ipdvuSXaqqpSJF9hFS2e\Personal-portfolio\images\photo.jpg">
+                <div class="layer">
+                    <h3>Vulnerability Assessment</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\ELCOT\Downloads\k3ipdvuSXaqqpSJF9hFS2e\Personal-portfolio\images\photo2.jpg">
+                <div class="layer">
+                    <h3>Penetration Testing</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\ELCOT\Downloads\k3ipdvuSXaqqpSJF9hFS2e\Personal-portfolio\images\photo3.webp">
+                <div class="layer">
+                    <h3>Security Training</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> premkumaropm182@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 9344769244</p> <!-- Fixed phone number format -->
+                <div class="social-icons">
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a> <!-- Added links for Twitter -->
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a> <!-- Added links for Instagram -->
+                    <a href="https://www.linkedin.com/in/prem-kumar-1362612aa" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a> <!-- Added links for LinkedIn -->
+                </div>
+                <a href="C:\Users\ELCOT\Desktop\Prem resume.pdf" download class="btn btn2">Download CV</a> <!-- Local file download will not work in browsers, consider uploading it to a server -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kevin. Made with <i class="fas fa-heart"></i> by <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1" target="_blank" rel="noopener noreferrer">Easy Tutorials</a></p>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxbe8O1YAfTZpK9NY3vAgdC5LtcrhtNzYhjr9ITtUKnzKj3sjqUZ0R3AnuOfitfND5XLA/exec' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() 
+            {
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
